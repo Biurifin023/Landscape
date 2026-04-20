@@ -88,8 +88,13 @@ a:hover {
   color: transparent;
 }
 
-ul [role="list"] {
+ul[role="list"] {
   list-style: none;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
 }
 
 @media (width >= 80em) {
