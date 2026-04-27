@@ -99,9 +99,13 @@
     margin-inline: auto;
    }
 
-   & .premium .card {
-    padding-bottom: 6rem;
-   }
+  & .premium .card {
+   padding-bottom: 6rem;
+  }
+
+  & .cards {
+   align-items: start;
+  }
 
    & .card:nth-child(3) .separator{
     margin-block: 1.5rem;
